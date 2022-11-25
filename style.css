@@ -1,0 +1,1231 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nbar{
+  padding: 0px;
+  padding-right: 30px;
+  
+}
+
+.navb{
+  justify-content: end !important;
+}
+
+.logo{
+    width: 150px;
+    padding: 5px 0px;
+}
+
+.header2{
+    display: flex;
+    justify-content: space-around;
+    background: #002C3E;
+    height: 26px;
+}
+
+.header2 p{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.navlink{
+    display: flex;
+    justify-content: end;
+    padding-right: 50px;
+    width: 1170px;
+}
+
+.navch{
+    margin-left: 20px;
+    color: black;
+}
+
+/* ------------------------------------------
+                SWIPER
+------------------------------------------ */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    /* display: block; */
+    width: 72%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-slide .second {
+    /* display: block; */
+    width: 55%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .heading1{
+    font-size: 50px;
+    font-weight: 400;
+    text-align: start;
+  }
+
+  .p1{
+    text-align: start;
+    max-width: 700px;
+  }
+
+  .sliderspan{
+    font-weight: bolder;
+  }
+
+  .slidertextbox{
+    padding-left: 50px;
+  }
+
+  .btnbox{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: red;
+    color: white;
+  }
+
+  .btnmain{
+    text-align: start;
+    padding-top: 30px;
+  }
+
+  /* ------------------------------------------
+                SWIPER
+------------------------------------------ */
+
+.main{
+  background: #F8F9FA;
+  padding-bottom: 30px;
+}
+
+.product{
+  display: flex !important;
+}
+
+.productimg{
+  width: 450px;
+}
+
+.productcontent{
+  margin-top: 80px;
+  margin-left: 60px;
+}
+
+.productpara{
+  font-size: 17px;
+  max-width: 600px;
+  margin-top: 30px;
+  color: grey ;
+}
+
+.mainsqu{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.square{
+  width: 40px;
+  height: 50px;
+  border: 2px solid grey;
+  font-size: 30px;
+}
+
+.productheadmain{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.para{
+  max-width: 180px;
+  color: grey;
+  text-align: center;
+}
+
+.headingproduct{
+  color: darkslategrey;
+  font-weight: 500;
+}
+
+.bestheading{
+  text-align: center;
+  margin-top: 90px;
+}
+
+.farpara{
+  color: grey;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.bsimg{
+  width: 240px;
+  transition: transform 0.5s;
+}
+
+
+.bsimg:hover {
+  transform: scale(1.2);
+}
+
+.collections{
+  display: flex;
+  justify-content: space-around;
+}
+
+.collectionbox{
+  margin-top: 17px;
+}
+
+.collectionbox p{
+  max-width: 200px !important;
+}
+
+.floral{
+  color: grey;
+}
+
+.starcolor{
+  color: orange;
+}
+
+.shopwithus{
+  text-align:center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-weight: bolder;
+}
+
+.mainshop{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+  flex-wrap: wrap;
+  
+}
+
+.undershop{
+  background-color: #002C3E;
+  padding: 50px 40px;
+  border-radius: 7px;
+  margin: 10px;
+}
+
+.undershop p{
+  color: white;
+  max-width: 250px;
+  text-align: center;
+
+}
+
+.shopspan{
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.subs{
+  background-color: #D4CED0;
+  padding: 85px 0px;
+}
+
+.subs h1{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: 45px;
+}
+
+.subs p{
+  text-align: center;
+  font-size: 18px;
+}
+
+.inpsubs{
+  text-align: center;
+  margin-top: 30px;
+}
+
+#emailinp{
+  width: 600px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  padding-left: 30px;
+  font-size: 17px;
+}
+
+.subscribe{
+  margin-top: 35px;
+  width: 300px;
+  height: 45px;
+  border: none;
+  border-radius: 25px;
+  background-color: red;
+  color: white;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.subscribe:hover{
+  color: red;
+  background-color: transparent;
+  border: 1px solid red;
+}
+
+.shopicons{
+  color: white;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.footer{
+  background-color: #F8F8F8;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-top: 20px;
+}
+
+.footerlogo{
+  width: 200px;
+  margin-bottom: 10px;
+  margin-left: -50px;
+}
+
+.footerbold{
+  font-weight: bold;
+}
+
+.footerhead p{
+  font-size: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menulist li{
+  list-style: none;
+}
+
+.menulist a{
+  margin-left: -32px;
+  font-size: 17px;
+  color: rgb(0, 0, 0,0.6);
+  text-decoration: none;
+}
+
+.footerdis{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+
+.footerheads{
+  margin-top: 30px;
+}
+
+.subcolor{
+  color: rgb(0, 0, 0,0.6);
+  font-weight: 600;
+}
+
+.emailinput{
+  width: 250px;
+  height: 40px;
+  padding-left: 5px;
+}
+
+.sb{
+  background-color: red;
+  color: white;
+  border: none;
+  width: 100px;
+  height: 40px;
+}
+
+.copyright{
+  background-color: #002C3E;
+  padding: 8px 0px;
+}
+
+.copyright p{
+  color: rgb(128, 128, 128,0.9);
+  display: flex;
+  font-size: 15px;
+  justify-content: center;
+  margin-bottom: 0px !important;
+}
+
+/* -------------------------------------------------------------- */
+/* ---------------------- ABOUT ---------------------------  */
+/* --------------------------------------------------------------  */
+
+.main1{
+  padding-bottom: 80px;
+}
+
+.aboutpic{
+  width: 1349px;
+  height: 300px;
+}
+
+.about{
+  background-image: url(images/about/about2.jpg);
+  height: 46vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aboutp{
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0px !important;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.aboutpara{
+  font-size: 15px;
+  max-width: 640px;
+  text-align: center;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bts{
+  font-size: 32px;
+  font-weight: bold;
+  margin: 50px 0px;
+  text-align: center;
+}
+
+.firstpart{
+  display: flex;
+  justify-content: center;
+  background-color: #FAFAFA;
+  margin-bottom: 80px;
+  align-items: center;
+}
+
+.about3{
+  width: 500px;
+}
+
+.ourmission{
+  text-align: center;
+  padding: 10px;
+}
+
+.ourmission h1{
+  font-size: 28px;
+  font-weight:bold;
+  margin-bottom: 20px;
+}
+
+.ourmission p{
+  max-width: 500px;
+  font-size: 15px;
+  color: rgb(0, 0, 0,0.8);
+  margin-bottom: 30px;
+}
+
+.ourmissions{
+  background-color: black;
+  color: white;
+  width: 160px;
+  height: 50px;
+}
+
+.about4{
+  width: 570px;
+}
+
+.about5{
+  width: 540px;
+}
+
+/* ----------------------------------------
+---------------CONTAC US----------------
+---------------------------------------- */
+
+.contactus{
+  background-image: url(images/about/about2.jpg);
+  height: 46vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;  
+}
+
+.contactusp{
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 0px !important;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contactpp{
+  color: white;
+  font-size: 15px;
+  max-width: 690px;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.getintouch{
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+  padding: 30px 0px;
+}
+
+.send{
+  font-size: 20px;
+}
+
+.formhead{
+  padding-top: 15px;
+}
+
+.formhead h1{
+  font-size: 18px;
+}
+
+.forminp{
+  width: 500px;
+  height: 5vh;
+  border: 1px solid rgb(128, 128, 128,0.7);
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+
+.forminput{
+  width: 500px;
+  height: 30vh;
+  margin-top: 10px;
+  padding-left: 10px;
+  border: 1px solid rgb(128, 128, 128,0.7);
+}
+
+.subcon{
+  background-color: black;
+  color: white;
+  font-weight: bold ;
+  width: 250px;
+  height: 45px;
+  margin-top: 30px;
+  transition: 0.5s;
+}
+
+.subcon:hover{
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.livehelppara{
+  max-width: 400px;
+}
+
+.sendlive{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.live{
+  background-color: #F8F9FA;
+  padding: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+
+}
+
+.live h1{
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.livehelppara{
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-bottom: 20px;
+}
+
+.messageus{
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+  font-weight: bold;
+  width: 170px;
+  height: 40px;
+}
+
+.messageus:hover{
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+
+.iconp{
+  padding-top: 25px;
+}
+
+.iconp p{
+  margin-bottom: 0px !important;
+  padding-bottom: 10px;
+}
+
+.market{
+  max-width: 300px;
+  padding-top: 10px;
+}
+
+.adddtocart{
+  position: absolute;
+  bottom:  -40px;
+  left: 45px;
+  width: 150px;
+  height: 40px;
+  z-index: 10;
+  border: none;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  transition: .3s;
+}
+
+.carthover{
+  position: relative;
+  overflow: hidden;
+}
+
+.carthover:hover .adddtocart{
+  bottom: 30px;
+}
+
+.shoppingcard{
+  width: max-content;
+  margin: 10px;
+}
+
+.cardrow{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* -------------------------------------------
+---------------------------------------------
+------------------------------------------------ */
+
+@media only screen and (max-width: 1050px){
+  .navbar-toggler:focus{
+    box-shadow: none !important;
+  }
+  .heading1{
+    font-size: 40px;
+  }
+  .p1{
+    font-size: 15px;
+  }
+  .btnbox{
+    width: 120px;
+    height: 35px;
+    font-size: 15px;
+  }
+  .btnmain{
+    padding-top: 10px;
+  }
+  .nbar{
+    padding-right: 0px;
+  }
+  .productimg{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 992px){
+  .navb{
+    justify-content: start !important;
+  }
+  .footerheads{
+    margin-left: 10px;
+  }
+  .footerhead p{
+    font-size: 14px;
+  }
+  .footerbold{
+    font-size: 14px;
+  }
+  .menulist li a{
+    font-size: 13px;
+  }
+  .subcolor{
+    font-size: 13px;
+  }
+  .emailinput{
+    width: 150px;
+    font-size: 13px;
+  }
+  .sb{
+    font-size: 12px;
+  }
+  .firstpart{
+    flex-wrap: wrap;
+    padding: 20px 0px;
+  }
+  .about99{
+    flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  .heading1{
+    font-size: 30px;
+  }
+  .header2 p{
+    font-size: 11px;
+  }
+  .header2 p{
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 780px){
+  .heading1{
+    font-size: 35px !important;
+  }
+  .footerheads{
+    margin-left: 10px;
+  }
+  .footerhead p{
+    font-size: 12px;
+  }
+  .footerbold{
+    font-size: 13px;
+  }
+  .menulist li a{
+    font-size: 12px;
+  }
+  .subcolor{
+    font-size: 12px;
+  }
+  .emailinput{
+    width: 120px;
+    height: 35px;
+    font-size: 11px;
+  }
+  .sb{
+    font-size: 11px;
+    width: 80px;
+    height: 25px;
+    margin-top: 10px;
+  }
+  .footerlogo{
+    width: 150px;
+    margin-left: -30px;
+  }
+  .copyright p{
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 780px){
+  .productcontent{
+    margin-left: 10px;
+  }
+  .productcontent h1{
+    font-size: 30px;
+  }
+  .productpara{
+    font-size: 15px;
+  }
+  .square{
+    width: 30px;
+    height: 40px;
+  }
+  .para{
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 740px){
+  .firstpart{
+  }
+  .about3{
+    width: 400px;
+  }
+  .about4{
+    width: 400px;
+  }
+  .about5{
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 700px){
+  .logo{
+    width:100px;
+  }
+  .navbar-toggler-icon{
+    width: 1em;
+    height: 1em;
+  }
+  .navbar-toggler{
+    padding: 2px 8px;
+    padding-top: 1px;
+  }
+  .navbar-toggler:focus{
+    box-shadow: none !important;
+  }
+  .swiper-slide img{
+    display: none;
+  }
+  .textback{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/model1.webp);
+    background-position: center;
+    background-size: 100%;
+    height: 50vh;
+  }
+  .textbacks{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/model2.webp);
+    background-size: 100%;
+    height: 50vh;
+  }
+  .heading1{
+    color: white;
+    max-width: 300px;
+  }
+  .p1{
+    color: white;
+    max-width: 400px;
+  }
+  .farpara{
+    font-size: 13px;
+  }
+  .undershop p{
+    font-size: 12px;
+  }
+  .shopspan{
+    font-size: 20px;
+  }
+  .subs h1{
+    font-size: 32px;
+  }
+  .subs p{
+    font-size: 13px;
+  }
+  #emailinp{
+    width: 400px;
+    font-size: 15px;
+  }
+  .subscribe{
+    width: 200px;
+    font-size: 15px;
+  }
+  .aboutp{
+    font-size: 18px;
+  }
+  .aboutpara{
+    font-size: 13px;
+  }
+  .contactusp{
+    font-size: 18px;
+  }
+  .contactpp{
+    font-size: 13px;
+  }
+  .live{
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .getintouch{
+    font-size: 26px;
+  }
+  .send{
+    font-size: 18px;
+  }
+  .ask{
+    font-size: 14px;
+  }
+  .formhead h1{
+    font-size: 16px;
+  }
+  .forminp{
+    width: 350px;
+  }
+  .forminput{
+    width: 350px;
+  }
+  .subcon{
+    width: 180px;
+    height: 40px;
+    font-size: 14px;
+  }
+  .live{
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .slidertextbox{
+    padding-left: 20px;
+  }
+  .subs h1{
+    font-size: 26px;
+  }
+  .subs p{
+    font-size: 11px;
+  }
+  #emailinp{
+    width: 300px;
+    height: 40px;
+    font-size: 13px;
+  }
+  .subscribe{
+    width: 130px;
+    height: 30px;
+    font-size: 12px;
+  }
+  .ourmission p{
+    font-size: 13px;
+  }
+  .ourmission h1{
+    font-size: 24px;
+  }
+  .bts{
+    font-size: 28px;
+  }
+  .about3{
+    width: 350px;
+  }
+  .about4{
+    width: 350px;
+  }
+  .about5{
+    width: 350px;
+  }
+  .ourmissions{
+    width: 130px;
+    height: 40px;
+    font-size: 14px;
+  }
+  .live h1{
+    font-size: 16px;
+  }
+  .livehelppara{
+    font-size: 13px;
+  }
+  .messageus{
+    width: 130px;
+    height: 35px;
+    font-size: 13px;
+  }
+  .iconp p{
+    font-size: 13px;
+  }
+  .market{
+    font-size: 15px;
+  }
+  .live{
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 460px){
+  .subs h1{
+    font-size: 20px;
+  }
+  .subs p{
+    font-size: 9px;
+  }
+  #emailinp{
+    width: 250px;
+    height: 30px;
+    font-size: 12px;
+  }
+  .subscribe{
+    width: 110px;
+    height: 25px;
+    font-size: 10px;
+    margin-top: 18px;
+  }
+  .footerheads{
+    margin-left: 10px;
+  }
+  .footerhead p{
+    font-size: 10px;
+  }
+  .footerbold{
+    font-size: 12px;
+  }
+  .menulist li a{
+    font-size: 11px;
+  }
+  .subcolor{
+    font-size: 11px;
+  }
+  .emailinput{
+    width: 100px;
+    height: 30px;
+    font-size: 9px;
+  }
+  .sb{
+    font-size: 9px;
+    width: 60px;
+    height: 20px;
+    margin-top: 10px;
+  }
+  .footerlogo{
+    width: 150px;
+    margin-left: -30px;
+  }
+  .copyright p{
+    font-size: 11px;
+  }
+  .footerlogo{
+    width: 95px;
+    margin-left: -20px;
+  }
+  .live{
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 460px){
+  .header2{
+   display: none;
+  }
+  .heading1{
+    font-size: 25px !important;
+  }
+  .p1{
+    font-size: 10px;
+  }
+  .btnbox{
+    width: 90px;
+    height: 25px;
+    font-size: 8px;
+  }
+  .btnmain{
+    padding-top: 0px;
+  }
+  .productcontent h1{
+    font-size: 22px;
+  }
+  .productpara{
+    font-size: 12px;
+  }
+  .square{
+    width: 20px;
+    height: 30px;
+  }
+  .para{
+    font-size: 10px;
+  }
+  .live{
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 460px){
+  .ourmission p{
+    font-size: 11px;
+  }
+  .ourmission h1{
+    font-size: 20px;
+  }
+  .bts{
+    font-size: 25px;
+  }
+  .about3{
+    width: 300px;
+  }
+  .about4{
+    width: 300px;
+  }
+  .about5{
+    width: 300px;
+  }
+  .ourmissions{
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+  }
+  .live{
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  .getintouch{
+    font-size: 22px;
+  }
+  .send{
+    font-size: 16px;
+  }
+  .ask{
+    font-size: 12px;
+  }
+  .formhead h1{
+    font-size: 14px;
+  }
+  .forminp{
+    width: 300px;
+  }
+  .forminput{
+    width: 300px;
+  }
+  .subcon{
+    width: 130px;
+    height: 30px;
+    font-size: 11px;
+  }
+  .live h1{
+    font-size: 14px;
+  }
+  .livehelppara{
+    font-size: 11px;
+  }
+  .messageus{
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+  }
+  .iconp p{
+    font-size: 11px;
+  }
+  .market{
+    font-size: 12px;
+  }
+  .live{
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 350px){
+  .footerheads{
+    margin-left: 10px;
+  }
+  .footerhead p{
+    font-size: 9px;
+  }
+  .footerbold{
+    font-size: 11px;
+  }
+  .menulist li a{
+    font-size: 10px;
+  }
+  .subcolor{
+    font-size: 10px;
+  }
+  .emailinput{
+    width: 80px;
+    height: 25px;
+    font-size: 7px;
+  }
+  .sb{
+    font-size: 7px;
+    width: 50px;
+    height: 18px;
+    margin-top: 10px;
+  }
+  
+  .copyright p{
+    font-size: 10px;
+  }
+  .footerlogo{
+    width: 95px;
+    margin-left: -20px;
+  }
+  .ourmission p{
+    font-size: 11px;
+  }
+  .ourmission h1{
+    font-size: 20px;
+  }
+  .bts{
+    font-size: 25px;
+  }
+  .about3{
+    width: 250px;
+  }
+  .about4{
+    width: 250px;
+  }
+  .about5{
+    width: 250px;
+  }
+  .ourmissions{
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+  }
+  .getintouch{
+    font-size: 21px;
+  }
+  .send{
+    font-size: 15px;
+  }
+  .ask{
+    font-size: 11px;
+  }
+  .formhead h1{
+    font-size: 13px;
+  }
+  .forminp{
+    width: 260px;
+  }
+  .forminput{
+    width: 260px;
+  }
+  .subcon{
+    width: 110px;
+    height: 30px;
+    font-size: 10px;
+  }
+  .live{
+    margin-left: 0px;
+  }
+}
